@@ -1,0 +1,11 @@
+Traceback (most recent call last):
+  File "c:\Users\marketing\Desktop\Py\Conectar_SS\app.py", line 65, in <module>
+    main()
+    ~~~~^^
+  File "c:\Users\marketing\Desktop\Py\Conectar_SS\app.py", line 17, in main
+    envio_mensajes_whatsapp()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "c:\Users\marketing\Desktop\Py\Conectar_SS\app.py", line 43, in envio_mensajes_whatsapp
+    "numero": "51"+i["Celular"],
+                   ~^^^^^^^^^^^
+KeyError: 'Celular'
